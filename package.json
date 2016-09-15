@@ -1,0 +1,24 @@
+{
+  "name": "oralintegralkids",
+  "version": "1.0.0",
+  "description": "Landing page de clinica dental Oral Integral Kids",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/idealab.pe/OralIntegralKids.git"
+  },
+  "keywords": [
+    "oral",
+    "integral",
+    "kids"
+  ],
+  "author": "Bruce Grover Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/idealab.pe/OralIntegralKids/issues"
+  },
+  "homepage": "https://gitlab.com/idealab.pe/OralIntegralKids#README"
+}
