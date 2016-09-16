@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://gitlab.com/idealab.pe/OralIntegralKids/issues"
   },
-  "homepage": "https://gitlab.com/idealab.pe/OralIntegralKids#README"
+  "homepage": "https://gitlab.com/idealab.pe/OralIntegralKids#README",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-webserver": "^0.9.1"
+  }
 }
