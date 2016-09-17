@@ -1,6 +1,28 @@
+$colorUva: #c44d58;
+$colorLimon: #c7f464;
+$colorCeleste: #4ecdc4;
+$colorRosa: #ff6b6b;
+$colorAceituna: #556270;
+$colorCelesteOscuro: #00b1d6;
+$colorAzul: #006ca7;
+
+$View-1-backgroundColor: white;
+$View-2-backgroundColor: white;
+$View-3-backgroundColor: white;
+$View-4-backgroundColor: white;
+
+$footer-Color: #E0DFDF;
+$footer-BackgroundColor: $colorAceituna;
+
+$altoMenu : 57px;
+
 body {
 	color: #575656;
-	font-size: 16px;
+	font-size: 15px;
 	font-family: 'Raleway', 'arial';
 	margin: 0px;
+}
+
+ul {
+	list-style-type: none;
 }

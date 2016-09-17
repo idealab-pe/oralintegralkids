@@ -1,0 +1,59 @@
+.nosotros-section {
+	width: 90%;
+	margin: auto;
+	padding-top: 70px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.nosotros-section .titulo {
+	color: $colorCeleste;
+	font-size: 30px;
+	width: 100%;
+}
+
+.nosotros-section .contenido {
+	color: #949899;
+	text-align: center;
+	line-height: 20px;
+	margin: 70px 0px;
+}
+
+.nosotros-section .contenido span {
+	color: $colorCeleste;
+}
+
+.nosotros-section {
+
+	.perfil-foto {
+	 	width: 80%;
+		margin: auto;
+		margin-bottom: 30px;
+	}
+	
+	.perfil-nombre {
+		color: $colorCeleste;
+	}
+
+	.perfil-descripcion {
+		color: #949899;
+		text-align: center;
+		line-height: 20px;
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+
+	.especialidades {
+		padding-left: 0px;
+	}
+
+	.especialidades li {
+		border: 1px solid #E3E3E3;
+		color: #949899;
+		padding: 8px 0px;
+		text-align: center;
+	}
+}

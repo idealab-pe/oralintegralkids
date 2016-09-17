@@ -1,16 +1,16 @@
 .header {
 	background-color: #FFFFFF;
-	height: 64px;
+	height: $altoMenu;
 	position: fixed;
-	top: 0px;
+	top: -$altoMenu;
 	left: 0px;
 	width: 100%;
 	z-index: 10;
+	transition: top .3s ease;
 }
 
 .header-show {
-	height: 64px;
-	transition: height .3s ease;
+	top: 0px;
 }
 
 .header-mobile {
@@ -24,14 +24,24 @@
 	/*border 1px solid red;*/
 	order: 2;
 	margin-right: 1rem;
-	line-height: 64px;
+	line-height: $altoMenu;
+	width: 65px;
+}
+
+.header-logo .logo {
+	margin-top: 10px;
+	width: 100%;
+	background-size: contain;
 }
 
 .header-btn-nav {
 	order: 1;
 	border: 0px;
-	background-color: #FFFFFF;
-	margin-left: 1rem;
+	background-color: #c7f464;
+	/*margin-left: 1rem;*/
+	width: $altoMenu;
+	height: $altoMenu;
+	color: white;
 }
 
 .header-menu-navbar {
@@ -43,10 +53,12 @@
 	overflow: hidden;
 	transition: height .3s ease;
 	margin-top: 0px;
+	margin-bottom: 0px;
+	list-style-type: none;
 }
 
 .header-menu-list-show {
-	height: 280px;
+	height: 330px;
 }
 
 .header-menu-list-item {
@@ -58,6 +70,38 @@
 
 .header-menu-list-item:hover {
 	background-color: #F1EFEF;
+}
+
+.header-border {
+	width: 100%;
+	height: 5px;
+	z-index: 999;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	.rosa {
+		background-color: $colorRosa;
+		height: 5px;
+		width: 25%;
+	}
+	.celeste {
+		background-color: $colorCeleste;
+		height: 5px;
+		width: 25%;
+	}
+	.limon {
+		background-color: $colorLimon;
+		height: 5px;
+		width: 25%;
+	}
+	.uva {
+		background-color: $colorUva;
+		height: 5px;
+		width: 25%;
+	}
+
 }
 
 @media (min-width: 768px) {

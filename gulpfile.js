@@ -26,18 +26,10 @@ gulp.task('build-css', function () {
 })
 
 gulp.task('build-js', function () {
-  console.log('build-js start')
+  //console.log('build-js start')
   gulp.src(config.js.main)
-    .pipe(browserify({ 
-      insertGlobals : true,
-      debug : !gulp.env.production
-    }))
+    .pipe(browserify({ insertGlobals : true }))
     .pipe(gulp.dest(config.js.bundle))
-/*  var script = 'browserify -t [ babelify --presets [ es2015 ] ] '+ config.js.main + ' > '+ config.js.bundle + '/bundle.js'
-  console.log(script)
-  gulp.src(config.js.main, {read: false})
-   .pipe(shell([script]))
-  console.log('build-js done')*/
 })
 
 gulp.task('watch', function () {

@@ -1,0 +1,93 @@
+
+#view-1-article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#view-1-article .logo {
+	width: 50%;
+	background-size: contain;
+	margin-top: 25px;
+}
+
+.menu-section {
+	margin-top: 20px;
+	width: 80%;
+}
+
+.menu-bar {
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	background-color: $colorCeleste;
+	color: white;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-bar .menu-btn {
+	height: 40px;
+	line-height: 40px;
+	background-color: $colorLimon;
+	padding: 0px 8px;
+}
+
+.menu-bar .menu-btn .fa {
+	line-height: 40px;
+}
+
+.menu-label {
+	margin-right: 15px;
+}
+
+.menu-section .menu-list {
+	color: #949899;
+	padding-left: 0px;
+	margin: 0px 0px;
+
+	overflow: hidden;
+	height: 0px;
+	transition: height .3s ease;
+}
+
+.menu-section .menu-list-show {
+	height: 140px;
+}
+
+.menu-section .menu-list li {
+	border: solid 1px #E3E3E3;
+	text-align: center;
+	padding: 8px 0px;
+
+}
+
+.social-media {
+	width: 80%;
+	height: 70px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.social-media .social-logo {
+	width: 40px;
+	height: 40px;
+	background-size: contain;
+}
+
+.portada-section {
+	
+}
+
+.portada-section .portada {
+	width: 100%;
+	background-size: contain;
+}
+
+.llamar-section .llamar {
+	background-size: contain;
+	height: 30px;
+	margin: 40px 0px;
+}

@@ -7,17 +7,13 @@ $view-min-height: 300px;
 }
 
 
-$View-1-backgroundColor: #99FF76;
-$View-2-backgroundColor: #84D867;
-$View-3-backgroundColor: #71B858;
-$View-4-backgroundColor: #5F9B4A;
 
 #view-0, #view-1, #view-2, #view-3, #view-4 {
 
 }
 
 #view-0 {
-	min-height: 64px;
+	min-height: 0px;
 	background-color: #DEDEDE;
 }
 
@@ -39,11 +35,10 @@ $View-4-backgroundColor: #5F9B4A;
 
 /*** footer's *********************************/
 
-$footer-Color: #E0DFDF;
-$footer-BackgroundColor: #414141;
-
 footer {
 	color: $footer-Color;
 	background-color: $footer-BackgroundColor;
 	min-height: 300px;
 }
+
+/*** footer's *********************************/
