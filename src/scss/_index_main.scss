@@ -53,7 +53,7 @@
 }
 
 .menu-section .menu-list-show {
-	height: 140px;
+	height: 150px;
 }
 
 .menu-section .menu-list li {
@@ -78,16 +78,61 @@
 }
 
 .portada-section {
-	
-}
+	top: 0;
+    left: 0;
 
-.portada-section .portada {
-	width: 100%;
-	background-size: contain;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	perspective: 500%;
+	transform-style: preserve-3d;
+	transform-origin: 0% 50%;
+
+	.portada {
+		width: 100%;
+		background-size: contain;
+
+		opacity: 1;
+		display: block;
+
+		width: 100%;
+		height: 100%;
+		min-height: 400px;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
 }
 
 .llamar-section .llamar {
 	background-size: contain;
 	height: 30px;
 	margin: 40px 0px;
+}
+
+.carousel.carousel-slider {
+    top: 0;
+    left: 0;
+}
+
+.carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+}
+
+.carousel.carousel-slider .carousel-item {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
