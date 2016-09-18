@@ -33,7 +33,7 @@
   function section2 (section_div) {
     $('#b-' + section_div).on('click', function () {
       $('body,html').animate({
-        scrollTop: $('#' + section_div).position().top - margin_top
+        scrollTop: $('#' + section_div).position().top - margin_top - 140
       }, time)
       //$('#navbarMenu').toggleClass('header-menu-list-show')
     })

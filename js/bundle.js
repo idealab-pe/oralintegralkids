@@ -1399,7 +1399,7 @@ process.chdir = function (dir) {
 //import $ from 'jquery'
 //import './navbar/index.js'
 require('./navbar/index.js');
-}).call(this,require("rH1JPG"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_678aa494.js","/")
+}).call(this,require("rH1JPG"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_d08aa2e5.js","/")
 },{"./navbar/index.js":6,"buffer":2,"rH1JPG":4}],6:[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 (function () {
@@ -1437,7 +1437,7 @@ require('./navbar/index.js');
   function section2 (section_div) {
     $('#b-' + section_div).on('click', function () {
       $('body,html').animate({
-        scrollTop: $('#' + section_div).position().top - margin_top
+        scrollTop: $('#' + section_div).position().top - margin_top - 140
       }, time)
       //$('#navbarMenu').toggleClass('header-menu-list-show')
     })

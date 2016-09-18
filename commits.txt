@@ -1,0 +1,23 @@
+commit 8abf96793fedecc470bcc07f93af4c1e72a00646
+Author: Bruce Grover Lee <brucegrover.lee@gmail.com>
+Date:   Sat Sep 17 01:20:28 2016 -0500
+
+    esta listo la version mobil, solo falta servicios y blog
+
+commit 3e94102b18ec166009374a48148c2fa2fb168214
+Author: Bruce Grover Lee <brucegrover.lee@gmail.com>
+Date:   Thu Sep 15 21:39:58 2016 -0500
+
+    ya esta la plantilla responsive
+
+commit bdfe226e2550557857714193ff032cef7d9f94d8
+Author: Bruce Grover Lee <brucegrover.lee@gmail.com>
+Date:   Thu Sep 15 18:17:00 2016 -0500
+
+    add README
+
+commit 2fdd362a02fca46b1a413891312c84ff31f7b2b4
+Author: Bruce Grover Lee <brucegrover.lee@gmail.com>
+Date:   Thu Sep 15 18:09:58 2016 -0500
+
+    primer commit
