@@ -261,10 +261,18 @@ footer {
   top: 0;
   left: 0; }
 
+#view-2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-around; }
+
 .nosotros-section {
   width: 90%;
-  margin: auto;
+  max-width: 300px;
+  /*margin: auto;*/
   padding-top: 70px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -344,6 +352,13 @@ footer {
   #view-3 .box-rosa {
     background-color: #ff6b6b; }
 
+@media (min-width: 768px) {
+  #view-3 .servicios-container .servicios-box {
+    width: 200px;
+    height: 200px;
+    font-size: 1.1em;
+    padding: 10px; } }
+
 #view-4 {
   padding-top: 70px;
   padding-left: 15px;
@@ -359,20 +374,36 @@ footer {
     width: 200px;
     height: 200px;
     background-size: contain; }
-  #view-4 .promociones-titulo {
+  #view-4 .promo-box .promociones-titulo {
     font-size: 1.3em;
     text-align: center;
     color: #4ecdc4; }
+  #view-4 .promo-box .promociones-contenido, #view-4 .promo-box .promociones-fecha {
+    text-align: center; }
+
+@media (min-width: 768px) {
+  #view-4 {
+    flex-direction: row;
+    justify-content: center; }
+    #view-4 .promo-box {
+      width: 35%; }
+    #view-4 .promo-box .promociones-titulo {
+      font-size: 2.5em;
+      text-align: center;
+      color: #4ecdc4; }
+    #view-4 .promo-box .promociones-contenido, #view-4 .promo-box .promociones-fecha {
+      font-size: 2.0em; } }
 
 #view-5 {
   background-color: #00b1d6;
   padding-top: 70px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+  margin-top: 30px; }
+  #view-5 .ubicacion-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   #view-5 .ubicacion-titulo {
     color: white;
     font-size: 30px;
@@ -422,6 +453,18 @@ footer {
     font-style: italic;
     margin-bottom: 30px; }
 
+@media (min-width: 768px) {
+  #view-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px; }
+  #view-5 .ubicacion-box {
+    width: 40%; }
+  #view-5 .ubicacion-box .ubicacion-titulo {
+    font-size: 1.3em;
+    text-align: center; } }
+
 footer {
   padding-top: 70px;
   padding-left: 15px;
@@ -430,6 +473,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  footer .footer-box {
+    width: 100%; }
   footer .footer-logo {
     width: 40%;
     background-size: contain;
@@ -449,15 +494,27 @@ footer {
     background-size: contain;
     margin-bottom: 20px; }
   footer .footer-siguenos {
-    width: 70%;
+    width: 100%;
     font-size: 20px;
     text-align: center;
     margin-bottom: 20px; }
   footer .footer-redes {
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center; }
   footer .footer-social {
     width: 15%;
     background-size: contain; }
+
+@media (min-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    font-size: .7em; }
+  footer .footer-titulo, footer .footer-siguenos {
+    font-size: 1.2em; }
+  footer .footer-logo2 {
+    margin: auto; } }

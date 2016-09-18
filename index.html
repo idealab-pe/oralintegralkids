@@ -175,14 +175,14 @@
 		</article>
 	</section>
 	<section class="view" id="view-2">
-		<div class="nosotros-section"></div>
-		<div class="nosotros-section"></div>
 		<div class="nosotros-section">
 			<div class="titulo">NOSOTROS</div>
 			<div class="contenido">
 				Oral Integral Kids es parte del grupo ORAL INTEGRAL CENTER especializado en la atención dental del paciente niño y adolescente dirigido por la reconocida odontopediátra<br>
 				<span>Dra. Mónica Huamán Palacios</span>
 			</div>
+		</div>
+		<div class="nosotros-section">
 			<img class="perfil-foto" src="./asset/Dra-Monica-Huaman-Palacios001.png">
 			<div class="perfil-nombre">
 				Dra. Mónica Huamán Palacios
@@ -190,12 +190,14 @@
 			<div class="perfil-descripcion">
 				Miembro activo de la Sociedad Peruana de Odontopediatria, Docente Universitario de pre y post grado, escritora de artículos académicos especializados en odontopediatría y Conferencista a nivel Nacional.
 			</div>
-			<p><strong>
+			<div><strong>
 				<center>Colegio Odontológico del Perú:</center>
 				<center>COP 7944</center>
 				<center>Registro nacional de especialista:</center>
 				<center>RNE 028</center>
-			</strong></p>
+			</strong></div>
+		</div>
+		<div class="nosotros-section">
 			<ul class="especialidades">
 				<li>Estudios de Post Grado: Universidad Peruana Cayetano heredia</li>
 				<li>Especialista en Odontologia Pediatrica: Universidad Peruana Cayetano heredia</li>
@@ -260,72 +262,91 @@
 		<!-- <div class="blog-titulo">
 			PROMOCIONES
 		</div> -->
-		<img src="./asset/promociones.png">
-		<div class="promociones-titulo">POR LANZAMIENTO DE PÁGINA WEB</div>
-		<div class="promociones-contenido"><span style="font-size: 1.5em;">20%</span> en todos los tratamientos</div>
-		<div class="promociones-fecha" style="font-size:.8em;">(Hasta el 15 de Octubre)</div>
+		<div class="promo-box">
+			<img src="./asset/promociones.png">
+		</div>
+		<div class="promo-box">
+			<div class="promociones-titulo">POR LANZAMIENTO DE PÁGINA WEB</div>
+			<div class="promociones-contenido"><span style="font-size: 1.5em;">20%</span> en todos los tratamientos</div>
+			<div class="promociones-fecha" style="font-size:.8em;">(Hasta el 15 de Octubre)</div>
+		</div>
 	</section>
 	<section class="view" id="view-5">
-		<div class="ubicacion-titulo">NUESTRA UBICACIÓN</div>
-		<div class="ubicacion-mapa">
-			<!-- <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script> -->
-			<!-- <div id='gmap_canvas'></div> -->
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD63eX7zaCA5ZxVg-9e8uf9KF9VwfMWpyo"
-  type="text/javascript"></script>
-  			<div id='gmap_canvas'></div>
-			<!-- <iframe src="https://www.google.com/maps/d/embed?mid=1_mj3TdYlctPbiecdUp6kaoSJOLM&hl=es" width="640" height="480"></iframe>
-			</div> -->
+		<div class="ubicacion-box">
+			<div class="ubicacion-titulo">NUESTRA UBICACIÓN</div>
+			<div class="ubicacion-mapa">
+				<!-- <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script> -->
+				<!-- <div id='gmap_canvas'></div> -->
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD63eX7zaCA5ZxVg-9e8uf9KF9VwfMWpyo"
+	  type="text/javascript"></script>
+	  			<div id='gmap_canvas'></div>
+				<!-- <iframe src="https://www.google.com/maps/d/embed?mid=1_mj3TdYlctPbiecdUp6kaoSJOLM&hl=es" width="640" height="480"></iframe>
+				</div> -->
+			</div>
 		</div>
-		<div class="contactanos-titulo">
-			Contáctanos
-		</div>
-		<div class="contactanos-form">
-			<input type="text" name="nombre" placeholder="Nombre*">
-			<input type="text" name="email" placeholder="email*">
-			<input type="text" name="asunto" placeholder="Asunto*">
-			<textarea name="mensaje" placeholder="Mensaje*"></textarea>
-			<button name="enviar" value="">Enviar</button>
+		<div class="ubicacion-box">
+			<div class="contactanos-titulo">
+				Contáctanos
+			</div>
+			<div class="contactanos-form">
+				<input type="text" name="nombre" placeholder="Nombre*">
+				<input type="text" name="email" placeholder="email*">
+				<input type="text" name="asunto" placeholder="Asunto*">
+				<textarea name="mensaje" placeholder="Mensaje*"></textarea>
+				<button name="enviar" value="">Enviar</button>
+			</div>
 		</div>
 	</section>
 	<footer>
-		<div class="footer-titulo">
-			NOSOTROS
+		<div class="footer-box">
+			<div class="footer-titulo">
+				NOSOTROS
+			</div>
+			<div class="footer-contenido">
+				Oral Integral Kids es parte del grupo ORAL INTEGRAL CENTER especializado en la atención dental del paciente niño y Adolescente dirigido por la reconocida odontopediátra.
+			</div>
 		</div>
-		<div class="footer-contenido">
-			Oral Integral Kids es parte del grupo ORAL INTEGRAL CENTER especializado en la atención dental del paciente niño y Adolescente dirigido por la reconocida odontopediátra.
+		<div class="footer-box">
+			<img class="footer-logo" src="./asset/Oral-Integral-Kids-logo002.png">
 		</div>
-		<img class="footer-logo" src="./asset/Oral-Integral-Kids-logo002.png">
-		<div class="footer-titulo">
-			DIRECCIÓN
+		<div class="footer-box">
+			<div class="footer-titulo">
+				DIRECCIÓN
+			</div>
+			<div class="footer-contenido">
+				Pezet y Monel 1855<br>
+				2do Piso<br>
+				Lince<br>
+				Referencia: 8 y 9 de Canevaro
+			</div>
 		</div>
-		<div class="footer-contenido">
-			Pezet y Monel 1855<br>
-			2do Piso<br>
-			Lince<br>
-			Referencia: 8 y 9 de Canevaro
+		<div class="footer-box">
+			<div class="footer-titulo">
+				HORARIO DE ATENCIÓN
+			</div>
+			<div class="footer-contenido">
+				Lunes a Sábado
+				9am - 9pm
+			</div>
 		</div>
-		<div class="footer-titulo">
-			HORARIO DE ATENCIÓN
+		<div class="footer-box">
+			<div class="footer-titulo">
+				TELÉFONO
+			</div>
+			<div class="footer-contenido">
+				2656919 - 998660562
+			</div>
 		</div>
-		<div class="footer-contenido">
-			Lunes a Sábado
-			9am - 9pm
-		</div>
-		<div class="footer-titulo">
-			TELÉFONO
-		</div>
-		<div class="footer-contenido">
-			2656919 - 998660562
-		</div>
-
-		<img class="footer-logo2" src="./asset/Oral-Integral-Kids-logo002.png">
-		<div class="footer-siguenos">
-			Síguenos en nuestras redes sociales
-		</div>
-		<div class="footer-redes">
-			<img class="footer-social" src="./asset/Oral-Integral-kids-google+.png">
-			<img class="footer-social" src="./asset/Oral-Integral-kids-facebook.png">
-			<img class="footer-social" src="./asset/Oral-Integral-kids-linkedin.png">
+		<div class="footer-box" style="text-align:center;">
+			<img class="footer-logo2" src="./asset/Oral-Integral-Kids-logo002.png">
+			<div class="footer-siguenos">
+				Síguenos en nuestras redes sociales
+			</div>
+			<div class="footer-redes">
+				<img class="footer-social" src="./asset/Oral-Integral-kids-google+.png">
+				<img class="footer-social" src="./asset/Oral-Integral-kids-facebook.png">
+				<img class="footer-social" src="./asset/Oral-Integral-kids-linkedin.png">
+			</div>
 		</div>
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>

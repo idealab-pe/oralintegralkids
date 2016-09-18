@@ -5,9 +5,11 @@
 	padding-right: 15px;
     margin-top: 30px;
 
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+    .ubicacion-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 	.ubicacion-titulo {
 		color: white;
@@ -71,5 +73,24 @@
     	font-size: 16px;
     	font-style: italic;
     	margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    #view-5 {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 20px;
+    }
+
+    #view-5 .ubicacion-box {
+        width: 40%;
+    }
+
+    #view-5 .ubicacion-box .ubicacion-titulo {
+        font-size: 1.3em;
+        text-align: center;
     }
 }

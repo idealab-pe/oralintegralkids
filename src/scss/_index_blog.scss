@@ -19,9 +19,36 @@
 		background-size: contain;
 	}
 
-	.promociones-titulo {
+	.promo-box .promociones-titulo {
 		font-size: 1.3em;
 		text-align: center;
 		color: $colorCeleste;
 	}
+
+	.promo-box .promociones-contenido, .promo-box .promociones-fecha {
+		text-align: center;
+	}
+}
+
+@media (min-width: 768px) {
+	#view-4 {
+		flex-direction: row;
+		justify-content: center;
+
+		.promo-box {
+			width: 35%;
+		}
+
+		.promo-box .promociones-titulo {
+			font-size: 2.5em;
+			text-align: center;
+			color: $colorCeleste;
+		}
+
+		.promo-box .promociones-contenido, .promo-box .promociones-fecha {
+			font-size: 2.0em;
+		}
+	}
+
+		
 }

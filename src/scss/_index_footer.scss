@@ -8,6 +8,10 @@ footer {
 	flex-direction: column;
 	align-items: center;
 
+	.footer-box {
+		width: 100%;
+	}
+
 	.footer-logo {
 		width: 40%;
 		background-size: contain;
@@ -36,14 +40,14 @@ footer {
 	}
 
 	.footer-siguenos {
-		width: 70%;
+		width: 100%;
 		font-size: 20px;
 		text-align: center;
 		margin-bottom: 20px;
 	}
 
 	.footer-redes {
-		width: 50%;
+		width: 100%;
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
@@ -52,5 +56,24 @@ footer {
 	.footer-social {
 		width: 15%;
 		background-size: contain;
+	}
+}
+
+@media (min-width: 768px) {
+	footer {
+
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	align-items: stretch;
+		font-size: .7em;
+	}
+
+	footer .footer-titulo, footer .footer-siguenos {
+		font-size: 1.2em;
+	}
+
+	footer .footer-logo2 {
+		margin: auto;
 	}
 }
