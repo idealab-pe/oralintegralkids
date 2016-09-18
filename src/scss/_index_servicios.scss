@@ -11,5 +11,47 @@
 		color: $colorCeleste;
 		font-size: 30px;
 		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.servicios-container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.servicios-box {
+		width: 140px;
+		height: 140px;
+		color: white;
+		font-size: .9em;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.servicios-box-titulo, .servicios-box-contenido {
+		text-align: center;
+	}
+
+	.servicios-box .servicios-box-titulo {
+		font-weight: bold; 
+	}
+
+	.box-uva {
+		background-color: $colorUva;
+	}
+
+	.box-limon {
+		background-color: $colorLimon;
+	}
+
+	.box-celeste {
+		background-color: $colorCeleste;
+	}
+
+	.box-rosa {
+		background-color: $colorRosa;
 	}
 }

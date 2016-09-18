@@ -104,18 +104,22 @@ ul {
     flex-wrap: wrap;
     justify-content: space-between;
     height: 80px;
-    transition: all .3s ease; }
+    transition: all .3s ease;
+    top: 0px; }
   .behind-header {
     height: 80px; }
   .header-logo {
-    line-height: 80px; }
+    line-height: 80px;
+    padding-left: 20px; }
   .header-btn-nav {
     display: none; }
   .header-menu-list {
     height: 80px;
     display: flex; }
   .header-menu-list-item {
-    display: inline-block; } }
+    display: inline-block; }
+  #view-1-article .logo, #view-1-article .menu-section, #view-1-article .llamar-section {
+    display: none; } }
 
 /*** view's *********************************/
 .view {
@@ -313,7 +317,32 @@ footer {
   #view-3 .servicios-titulo {
     color: #4ecdc4;
     font-size: 30px;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 20px; }
+  #view-3 .servicios-container {
+    display: flex;
+    flex-wrap: wrap; }
+  #view-3 .servicios-box {
+    width: 140px;
+    height: 140px;
+    color: white;
+    font-size: .9em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  #view-3 .servicios-box-titulo, #view-3 .servicios-box-contenido {
+    text-align: center; }
+  #view-3 .servicios-box .servicios-box-titulo {
+    font-weight: bold; }
+  #view-3 .box-uva {
+    background-color: #c44d58; }
+  #view-3 .box-limon {
+    background-color: #c7f464; }
+  #view-3 .box-celeste {
+    background-color: #4ecdc4; }
+  #view-3 .box-rosa {
+    background-color: #ff6b6b; }
 
 #view-4 {
   padding-top: 70px;
@@ -326,12 +355,21 @@ footer {
     color: #4ecdc4;
     font-size: 30px;
     width: 100%; }
+  #view-4 img {
+    width: 200px;
+    height: 200px;
+    background-size: contain; }
+  #view-4 .promociones-titulo {
+    font-size: 1.3em;
+    text-align: center;
+    color: #4ecdc4; }
 
 #view-5 {
   background-color: #00b1d6;
   padding-top: 70px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -403,7 +441,8 @@ footer {
   footer .footer-contenido {
     text-align: left;
     line-height: 20px;
-    margin: 40px 0px;
+    margin-top: 15px;
+    margin-bottom: 45px;
     width: 100%; }
   footer .footer-logo2 {
     width: 30%;

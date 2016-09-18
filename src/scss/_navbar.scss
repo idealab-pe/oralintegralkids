@@ -117,6 +117,7 @@
 		justify-content: space-between;
 		height: 80px;
 		transition: all .3s ease;
+		top: 0px;
 	}
 
 	.behind-header {
@@ -125,6 +126,7 @@
 
 	.header-logo {
 		line-height: 80px;
+		padding-left: 20px;
 	}
 
 	.header-btn-nav {
@@ -138,5 +140,9 @@
 
 	.header-menu-list-item {
 		display: inline-block;
+	}
+
+	#view-1-article .logo, #view-1-article .menu-section, #view-1-article .llamar-section {
+		display: none;
 	}
 }

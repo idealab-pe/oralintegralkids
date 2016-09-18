@@ -12,4 +12,16 @@
 		font-size: 30px;
 		width: 100%;
 	}
+
+	img {
+		width: 200px;
+		height: 200px;
+		background-size: contain;
+	}
+
+	.promociones-titulo {
+		font-size: 1.3em;
+		text-align: center;
+		color: $colorCeleste;
+	}
 }

@@ -1400,7 +1400,7 @@ process.chdir = function (dir) {
 //import './navbar/index.js'
 require('./navbar/index.js');
 require('./slider/index.js');
-}).call(this,require("rH1JPG"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_da1d2950.js","/")
+}).call(this,require("rH1JPG"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_766959b.js","/")
 },{"./navbar/index.js":6,"./slider/index.js":7,"buffer":2,"rH1JPG":4}],6:[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 (function () {
@@ -1420,7 +1420,7 @@ require('./slider/index.js');
   function section (section_div) {
     $('#a-' + section_div).on('click', function () {
       $('body,html').animate({
-        scrollTop: $('#' + section_div).position().top - margin_top
+        scrollTop: $('#' + section_div).position().top - margin_top - 30
       }, time)
       $('#navbarMenu').toggleClass('header-menu-list-show')
     })
@@ -1438,7 +1438,7 @@ require('./slider/index.js');
   function section2 (section_div) {
     $('#b-' + section_div).on('click', function () {
       $('body,html').animate({
-        scrollTop: $('#' + section_div).position().top - margin_top - 140
+        scrollTop: $('#' + section_div).position().top - margin_top - 140 - 30
       }, time)
       //$('#navbarMenu').toggleClass('header-menu-list-show')
     })
