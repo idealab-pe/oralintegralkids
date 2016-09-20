@@ -109,8 +109,9 @@ ul {
   .behind-header {
     height: 80px; }
   .header-logo {
-    line-height: 80px;
-    padding-left: 20px; }
+    line-height: 85px;
+    padding-left: 20px;
+    width: 100px; }
   .header-btn-nav {
     display: none; }
   .header-menu-list {
@@ -312,7 +313,7 @@ footer {
 .nosotros-section .especialidades li {
   border: 1px solid #E3E3E3;
   color: #949899;
-  padding: 8px 0px;
+  padding: 10px 8px;
   text-align: center; }
 
 #view-3 {
@@ -354,8 +355,8 @@ footer {
 
 @media (min-width: 768px) {
   #view-3 .servicios-container .servicios-box {
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     font-size: 1.1em;
     padding: 10px; } }
 
@@ -384,7 +385,9 @@ footer {
 @media (min-width: 768px) {
   #view-4 {
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px; }
     #view-4 .promo-box {
       width: 35%; }
     #view-4 .promo-box .promociones-titulo {
@@ -424,10 +427,13 @@ footer {
     width: 100%;
     text-align: center; }
   #view-5 .contactanos-form {
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 80%; }
+    align-items: left;
+    width: 80%;
+    color: white;
+    font-size: 1.5em; }
   #view-5 .contactanos-form input {
     width: 100%;
     margin-top: 10px;
@@ -441,7 +447,7 @@ footer {
     padding: 10px;
     border-radius: 8px;
     border: 0px solid; }
-  #view-5 .contactanos-form button {
+  #view-5 .contactanos-form button, #view-5 .contactanos-form .button {
     width: 70%;
     margin-top: 10px;
     padding: 10px;
@@ -451,7 +457,9 @@ footer {
     background-color: white;
     font-size: 16px;
     font-style: italic;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none; }
 
 @media (min-width: 768px) {
   #view-5 {
