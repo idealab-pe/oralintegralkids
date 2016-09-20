@@ -329,6 +329,10 @@ footer {
   padding: 10px 8px;
   text-align: center; }
 
+@media (min-width: 768px) {
+  .nosotros-section #nosotros-1 {
+    margin-top: 230px; } }
+
 #view-3 {
   padding-top: 70px;
   padding-left: 15px;
@@ -443,7 +447,8 @@ footer {
     padding-top: 40px;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
+    text-align: center;
     width: 80%;
     color: white;
     font-size: 1.5em; }
