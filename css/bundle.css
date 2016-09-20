@@ -1,3 +1,15 @@
+.box-uva {
+  background-color: #c44d58; }
+
+.box-limon {
+  background-color: #c7f464; }
+
+.box-celeste {
+  background-color: #4ecdc4; }
+
+.box-rosa {
+  background-color: #ff6b6b; }
+
 body {
   color: #575656;
   font-size: 15px;
@@ -311,8 +323,9 @@ footer {
   padding-left: 0px; }
 
 .nosotros-section .especialidades li {
-  border: 1px solid #E3E3E3;
-  color: #949899;
+  /*border: 1px solid #E3E3E3;*/
+  /*color: #949899;*/
+  color: white;
   padding: 10px 8px;
   text-align: center; }
 
