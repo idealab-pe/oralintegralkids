@@ -34,6 +34,9 @@ ul {
   list-style: none;
   padding: 0px; }
 
+/*.social ul li {
+	width: 100%;
+}*/
 .social ul li a {
   display: inline-block;
   color: #fff;
@@ -43,7 +46,8 @@ ul {
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
-  /* Establecemos una transición a todas las propiedades */ }
+  /* Establecemos una transición a todas las propiedades */
+  width: 30%; }
 
 .social ul li .icon-facebook {
   background: #3b5998; }
@@ -61,11 +65,25 @@ ul {
 .social ul li .icon-mail {
   background: #666666; }
 
+.social ul li .fa-facebook {
+  background: #3b5998; }
+
+/* Establecemos los colores de cada red social, aprovechando su class */
+.social ul li .fa-twitter {
+  background: #00abf0; }
+
+.social ul li .fa-google-plus {
+  background: red; }
+
+.social ul li .fa-envelope {
+  background: #666666; }
+
 .social ul li a:hover {
   background: #000;
   /* Cambiamos el fondo cuando el usuario pase el mouse */
-  padding: 10px 30px;
-  /* Hacemos mas grande el espacio cuando el usuario pase el mouse */ }
+  /*padding: 10px 30px;*/
+  /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+  width: 50%; }
 
 .header {
   background-color: #FFFFFF;
@@ -397,7 +415,8 @@ footer {
     text-align: center; }
   #view-3 .servicios-container {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: center; }
   #view-3 .servicios-box {
     width: 140px;
     height: 140px;
