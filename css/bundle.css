@@ -600,7 +600,7 @@ footer {
     justify-content: space-around;
     align-items: center; }
   footer .footer-social {
-    width: 15%;
+    width: 60%;
     background-size: contain; }
 
 @media (min-width: 768px) {
