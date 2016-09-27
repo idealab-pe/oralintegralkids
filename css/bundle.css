@@ -350,6 +350,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     min-height: 300px; }
   #view-2 .nosotros-section .logo {
     width: 80%; }
