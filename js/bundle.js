@@ -1400,7 +1400,7 @@ process.chdir = function (dir) {
 //import './navbar/index.js'
 require('./navbar/index.js');
 require('./slider/index.js');
-}).call(this,require("rH1JPG"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_442cb4d9.js","/")
+}).call(this,require("rH1JPG"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_c21d1d40.js","/")
 },{"./navbar/index.js":6,"./slider/index.js":7,"buffer":2,"rH1JPG":4}],6:[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 (function () {
