@@ -345,6 +345,8 @@ footer {
   flex-wrap: wrap;
   align-content: flex-start;
   justify-content: space-around; }
+  #view-2 .nosotros-section .logo {
+    width: 80%; }
 
 .nosotros-section {
   width: 90%;
