@@ -4,6 +4,14 @@
 		align-content:flex-start;
 		justify-content: space-around;
 
+		#container-a {
+			margin-top: 15px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			min-height: 300px;
+		}
+
 		.nosotros-section .logo {
 			width: 80%;
 		}
@@ -75,7 +83,13 @@
 
 @media (min-width: 768px) {
 
+	#view-2 {
+		#container-a {
+			min-height: 500px;
+		}
+	}
+
 	.nosotros-section #nosotros-1 {
-		margin-top: 230px;
+		margin-top: 0px;
 	}
 }

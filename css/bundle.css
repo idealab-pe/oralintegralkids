@@ -345,6 +345,12 @@ footer {
   flex-wrap: wrap;
   align-content: flex-start;
   justify-content: space-around; }
+  #view-2 #container-a {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 300px; }
   #view-2 .nosotros-section .logo {
     width: 80%; }
 
@@ -399,8 +405,10 @@ footer {
   text-align: center; }
 
 @media (min-width: 768px) {
+  #view-2 #container-a {
+    min-height: 500px; }
   .nosotros-section #nosotros-1 {
-    margin-top: 230px; } }
+    margin-top: 0px; } }
 
 #view-3 {
   padding-top: 70px;
